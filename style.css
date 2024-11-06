@@ -1,0 +1,13 @@
+.body{
+    background-color: lightcoral;
+    animation: showcase 3s 1 steps(100) ;
+}
+@keyframes showcase {
+    0%{ background-color: black;
+        opacity: 0;;
+    }
+    100%{
+        opacity: 1;
+        background-color: lightcoral;
+    }
+}
